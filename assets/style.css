@@ -72,16 +72,18 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
+
 #about-me {
 	flex: 2
 }
+
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
 }
+
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
@@ -90,6 +92,7 @@ body {
 	width: 60% !important;
 	line-height: 1.1rem;
 }
+
 #about-me p {
 	width: 80%;
 	font-size: 14px;
@@ -99,28 +102,34 @@ body {
 	text-align: center;
 	padding-block: 2em;
 }
+
 .gallery .nav {
 	justify-content: center;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: black;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
 .nav-pills .nav-link {
 	color: #000
 }
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+
 .item-column::after{
 	content: "";
 	display: block;
 	padding-bottom: 100%;
 
 }
+
 .gallery-item {
 	position: absolute;
 	width: 100%;
@@ -128,6 +137,7 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -145,6 +155,7 @@ body {
 	margin: auto;
 	padding-block: 3em;
 }
+
 .quote__text {
 	font-family: 'Spectral';
 	font-style: italic;
@@ -152,6 +163,7 @@ body {
 	line-height: 1.2;
 	font-size: 2.5rem;
 }
+
 .quote__author {
 	font-family: 'Spectral';
 	font-weight: 800;
@@ -163,6 +175,7 @@ body {
 	background-color: #A8D5D8 ;
 	position: relative;
 }
+
 #services .container::before{
 	content: ' ';
 	background-color: #1C6474;
@@ -191,11 +204,6 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
-}
-
-.service__price p {
-	font-weight: 400;
-	font-size: 1.5rem;
 }
 
 #contact {
@@ -308,10 +316,6 @@ input[type="submit"] {
 	}
 	.service__description{
 		margin-bottom: 1em;
-	}
-
-	.service__price p {
-		margin-bottom: 8px;
 	}
 
 	#services .container::before{
